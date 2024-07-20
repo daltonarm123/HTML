@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="Style.css">
+    <title>Dalton Armstrong - Portfolio</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#professional">Professional Information</a></li>
+            <li><a href="#personal">Personal Information</a></li>
+            <li><a href="#schedule">School Schedule</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header id="home">
+        <h1>Welcome to my page!</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Biography</h2>
+            <p>I was born in Nashville, Tennessee in October. I have lived most of my life here but I have visited many places. I also travel to other states, when I have time. If I don't travel then I watch movies with my friends. I also like to attend concerts and shows when I can.</p>
+            <p>I joined the military at 19. Since then after I got out I started school. I also dealt with an alcohol problem. Now I'm a lot better and I still drink but very little as I can. My life has been kinda crazy. But it's getting better.</p>
+        </section>
+
+        <section>
+            <h2>Education</h2>
+            <p>The start of my education history is from kindergarten all the way to the 12th grade. Then after graduating from high school I went to community college, but I took a break for a year after completing one academic year. After that I transferred to another community college. But now I am attending Nashville State Community College.</p>
+            <section>Blackman Elementary</section>&nbsp;
+            <section>Blackman Middle School</section>&nbsp;
+            <section>Blackman High School</section>&nbsp;
+            <section><a href="https://www.nscc.edu">Nashville State Community College</a></section>&nbsp;
+        </section>
+
+        <section>
+            <h2>Hobbies</h2>
+            <ol class="hobbies">
+                <li>Watching Movies.</li>&nbsp;
+                <li>Playing Soccer.</li>&nbsp;
+                <li>Going to Concerts.</li>&nbsp;
+                <li>Drawing.</li>&nbsp;
+            </ol>
+        </section>
+
+        <section>
+            <h2>Favorite quote</h2>
+            <p>My favorite quote is from a game called Assassin's Creed III: <br>
+                <q>I realize now that it will take time, that the road ahead is long and shrouded in darkness, it is a road which will not always take me where I wish to go and I doubt I will live to see its end, but I will travel down it nonetheless. For at my side walks hope. In the face of all that insists I turn back, I carry on.</q>
+            </p>
+        </section>
+
+        <section id="professional">
+            <h1>My Professional Goals</h1>
+            <p>My professional goals are to graduate and apply for a new career in programming. And to also look for a career in Nashville or in another state. Another goal would be to learn as much as I can to help me with understanding more in my other classes. After I graduate I would like to look for a career at a hospital to help with programming. Or to work at a business that develops games, applications, or are in security.</p>
+        </section>
+
+        <section id="personal">
+            <h1>My Personal Goals</h1>
+            <ul>
+                <li>One of my personal goals is to pay off all my debt or come very close to it.</li>
+                <li>Another goal of mine is to buy a house.</li>
+                <li>Spend more time travelling to other states or countries.</li>
+            </ul>
+        </section>
+
+        <section id="schedule">
+            <h1>School Schedule</h1>
+            <table>
+                <caption>School Schedule</caption>
+                <tr>
+                    <th id="classname">Class Name</th>
+                    <th id="day">Day(s)</th>
+                    <th id="time">Time</th>
+                    <th id="instructor">Instructor</th>
+                    <th id="format">Format</th>
+                </tr>
+                <tr>
+                    <td headers="classname">Beginning Html &#38; CSS</td>
+                    <td headers="day">Monday</td>
+                    <td headers="time">Anytime</td>
+                    <td headers="instructor">Gary Pierce</td>
+                    <td headers="format">Online</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="contact">
+            <h1>Contact Me</h1>
+            <p>Please fill out the form below to contact me.</p>
+            <form action="process_form.php" method="post">
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required><br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br><br>
+                    <label for="date">Date:</label>
+                    <input type="date" id="date" name="date" required><br><br>
+                    <label for="reason">Reason for Contact:</label>
+                    <textarea id="reason" name="reason" rows="4" cols="50" required></textarea><br><br>
+                </fieldset>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>Dalton Armstrong, <a href="mailto:daltonarmstrong123@gmail.com">daltonarmstrong123@gmail.com</a></footer>
+</body>
+
+</html>
